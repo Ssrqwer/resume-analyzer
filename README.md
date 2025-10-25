@@ -16,5 +16,3 @@ Upload your resume (PDF/TXT), get AI-driven feedback, and receive structured imp
 
 ---
 
-## 🏗️ Project Structure
-
