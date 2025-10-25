@@ -1,0 +1,64 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environment ---
+.venv/
+venv/
+env/
+ENV/
+.venv/*
+venv/*
+env/*
+ENV/*
+
+# --- Environment Variables ---
+.env
+.env.*
+!.env.example   # Keep example env if you want to show variable names
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & Caches ---
+*.log
+*.out
+*.err
+logs/
+.cache/
+.pytest_cache/
+.streamlit/secrets.toml  # contains sensitive API keys sometimes
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Compiled Files / Build Artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- IDE / Editor Files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# --- Temporary Files ---
+tmp/
+temp/
+*.tmp
+
+# --- Streamlit Specific ---
+# Sometimes Streamlit stores temporary runtime data here
+.streamlit/config.toml
+.streamlit/config.json
+.streamlit/config.yaml
+
+# --- Test Data / Generated Outputs ---
+output/
+data/
+uploads/
